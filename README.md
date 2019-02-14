@@ -11,13 +11,14 @@ ex: i have 1st table users and  2nd table club
 
 then put this short code in the CLUB TABLE 
 
-public function club_admins(){
 
-      //@params    
-      // 1st =  'Intermidiary tbl', 
-      // 2nd 'fk column of the club class to club_admins tbl'
-      // 3rd 'fk column of the users class to club_admins tbl'
-      
-      return $this->belongsToMany(User::class,  'club_admins', 'club_id', 'admin_id');
-}
+  public function club_admins(){
+        //@params    
+        // 1st =  'Intermidiary tbl', 
+        // 2nd 'fk column of the club class to club_admins tbl'
+        // 3rd 'fk column of the users class to club_admins tbl'
+
+        return $this->belongsToMany(User::class,  'club_admins', 'club_id', 'admin_id');
+  }
+  
 s
