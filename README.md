@@ -19,3 +19,4 @@ public function club_admins(){
       
       return $this->belongsToMany(User::class,  'club_admins', 'club_id', 'admin_id');
 }
+s
