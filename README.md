@@ -12,6 +12,7 @@ ex: i have 1st table users and  2nd table club
 then put this short code in the CLUB TABLE 
 
 public function club_admins(){
+
       //@params    
       // 1st =  'Intermidiary tbl', 
       // 2nd 'fk column of the club class to club_admins tbl'
